@@ -1,0 +1,182 @@
+:root{
+    --parimary-color: #280765;
+    --secondary-color: #3e0f42;
+    --color-white: white;
+    --color-black: black;
+    --color-rad:red;
+    --size-lg: 1.125rem;
+    --size-md: 1rem;
+    --size-sm: .875rem
+}
+
+
+/* navbar st */
+.navbar{
+    background-color: var(--parimary-color)!important;
+    
+   
+}
+.navbar .container a{
+    color: var(--color-white);
+}
+
+
+.carousel-indicators button {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    
+}
+
+
+.carousel-indicators button.active{background-color: aqua !important;}
+
+.carousel-control-prev .carousel-control-prev-icon { background-color: blue;}
+
+.carousel-control-next .carousel-control-next-icon { background-color: blue;}
+ 
+
+
+.list-group .list-group-item-action:hover{
+    background-color: var(--parimary-color);
+}
+.list-group .list-group-item-action.active{
+    background-color:none;
+}
+ 
+
+
+/* crad st */
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+.card h3{
+    color: var(--parimary-color);
+}
+.card button{
+    background-color: var(--parimary-color);
+   
+    
+}
+/* testimonial st */
+.testimonial-area .card-item{
+    border: 1px solid black;
+    padding: 30px 20px ;
+    margin-right: 20px;
+    margin-right: 20px;
+    height: 500px;
+}
+
+
+.testimonial-area .container .photo img{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.testimonial-area .card-text p{
+    text-align:justify;
+}
+
+
+
+.slick-prev:before,
+    .slick-next:before {
+    	padding: 5px;
+        color: white;
+        background: green;}
+
+
+/* footer st */
+        .as a{
+            margin: 10px;
+            font-size: 30px;
+            color: white;
+        }
+        .as a:hover{
+            background-color: var(--color-rad);
+        }
+        
+        .min-footer{
+            background-color: var(--parimary-color);
+            color: white
+        }
+
+
+        /* ofcamves st */
+        #offcanvasRight .offcanvas-body img{
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+        }
+        #offcanvasRight .offcanvas-body h4{
+            text-decoration: none;
+            color: red;
+        }
+        #offcanvasRight .offcanvas-body h4:hover{
+        color: var(--parimary-color);
+        }
+        .offcanvas .offcanvas-body .view-cart-btn button{
+            width: 100%;
+            color: var(--color-white);
+            font-size: 30px;
+            text-decoration: none;
+
+            
+            
+        }
+        .offcanvas .offcanvas-body .view-cart-btn button a{
+            text-decoration: none;
+        }
+        .offcanvas .offcanvas-body .view-cart-btn button:hover{
+            background-color: var(--parimary-color);
+        }
+        .offcanvas .offcanvas-body .checkout button{
+            width: 100%;
+            color: var(--color-white);
+            font-size: 30px;
+                text-decoration: none;
+            background-color: var(--parimary-color);}
+
+                .offcanvas .offcanvas-body .checkout button a{
+                    text-decoration: none;}
+
+
+                    .offcanvas .offcanvas-body .view-cart-btn button:hover{
+                        background-color: var(--secondary-color);}
+
+
+ .container .table thead th{
+    background-color: var(--parimary-color);
+    color: var(--color-white);
+ } 
+ .container .table tbody button{
+    background-color: var(--parimary-color);
+    padding: 10px;
+    color: var(--color-white);
+ }
+ .container .table tbody button:hover{
+    background-color: var(--secondary-color);
+    transition:  6s ;
+ }            
+
+ /* login st */
+ .log-in{
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    background-color: aliceblue;
+ }
+ .log-in .container{
+    margin-top: 100px;
+    margin-bottom: 100px !important;
+ }
+ .log-in .container button{
+    width: 100%;
+
+ }
+ .log-in .container button:hover{
+    background-color: var(--parimary-color);
+ }
+ .active{
+    color: black;
+ }
